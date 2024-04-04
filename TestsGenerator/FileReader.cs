@@ -22,7 +22,7 @@ namespace TestsGenerator
             int numRead;
             while ((numRead = await sourceStream.ReadAsync(buffer, 0, buffer.Length)) != 0)
             {
-                string text = Encoding.Unicode.GetString(buffer, 0, numRead);
+                string text = Encoding.UTF8.GetString(buffer, 0, numRead);
                 sb.Append(text);
             }
 
