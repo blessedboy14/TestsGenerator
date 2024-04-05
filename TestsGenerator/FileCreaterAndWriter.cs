@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TestsGenerator
 {
-    class FileCreaterAndWriter
+    public class FileCreaterAndWriter
     {
         public static async Task CreateAndWrite(string pathToFile, string content)
         {

@@ -7,15 +7,18 @@ using System.Xml.Linq;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace TestsGenerator
 {
 
-    class TestWrapper
+    public class TestWrapper
     {
         public string fileName;
         public string sourceCode;
+        public void doSmth()
+        {
+
+        }
         public TestWrapper
             (string fileName, string sourceCode)
         {
@@ -24,7 +27,7 @@ namespace TestsGenerator
         }
     }
 
-    class TestsGenerator
+    public class TestsGenerator
     {
         public static TestWrapper[] GenerateTests(string inputSource)
         {

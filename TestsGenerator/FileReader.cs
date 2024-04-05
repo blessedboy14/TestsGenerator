@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TestsGenerator
 {
-    class FileReader
+    public class FileReader
     {
         public static async Task<String> ReadTextAsync(string pathToFile)
         {

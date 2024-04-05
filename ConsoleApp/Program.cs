@@ -6,7 +6,6 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            var basePath = "";
             var outputBase = "../../../../generated";
             Console.Write("Enter path to files( use , to divide): ");
             var input = Console.ReadLine().Trim().Split(',');

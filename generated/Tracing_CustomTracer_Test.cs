@@ -1,13 +1,9 @@
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Threading;
-using System.Collections.Concurrent;
 using NUnit.Framework;
 using Tracing;
 
 namespace Tracing.Test
 {
-    [Test Ficture]
+    [TestFixture]
     public class CustomTracerTests
     {
         [Test]
