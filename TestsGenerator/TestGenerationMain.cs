@@ -8,7 +8,7 @@ using System.Threading.Tasks.Dataflow;
 
 namespace TestsGenerator
 {
-    class TestGenerationMain
+    public class TestGenerationMain
     {
         public Task Generate(List<string> inputFiles, string outputDirectory, int maxLoad, int maxGenerate, int maxWrite)
         {

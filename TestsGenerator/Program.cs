@@ -1,11 +1,16 @@
-﻿namespace TestsGenerator
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TestsGenerator
 {
-    public class Start
+    internal class Program
     {
         public static void Main(string[] args)
         {
-            var tester = new TestGenerationMain();
-            tester.Generate(new List<string>{ "D:\\LABS\\SPP\\TestsGenerator\\TestsGenerator\\TestClass.cs"}, "../", 8, 8, 8).Wait();
+
         }
     }
 }
